@@ -1,0 +1,153 @@
+/* eslint-disable key-spacing,key-spacing,no-trailing-spaces */
+/**
+ * Created by viktor on 17/7/17.
+ */
+
+export const SPROUT = {
+
+  // ------------------------ Start & Authentication Screens ------------------------
+
+  // start screen
+  START_SCREEN         : 'START_SCREEN',
+
+  // authentication selector screen
+  AUTH_SELECTOR_SCREEN : 'AUTH_SELECTOR_SCREEN',
+
+  // authentication screen (login, signup)
+  AUTHENTICATION_SCREEN: 'AUTHENTICATION_SCREEN',
+
+  // login PIN
+  LOGIN_PIN: 'LOGIN_PIN',
+
+  // touch id screen
+  TOUCH_ID: 'TOUCH_ID',
+
+  CUSTOM_NAV_BAR: 'CUSTOM_NAV_BAR',
+
+  // --------------------------------- GROW SCREENS ---------------------------------
+
+  GROW_HOMEPAGE: 'GROW_HOMEPAGE',
+
+  ARTICLE: 'ARTICLE',
+
+  // --------------------------------- SETTINGS SCREENS ---------------------------------
+
+  // settings homepage
+  SETTINGS_PANEL: 'SETTINGS_PANEL',
+
+  // user profile view
+  PROFILE: 'PROFILE',
+
+  CHANGE_PASSWORD: 'CHANGE_PASSWORD',
+
+  RECURRING_DETAIL: 'RECURRING_DETAIL',
+
+  INVESTOR_QUESTIONS: 'INVESTOR_QUESTIONS',
+
+  FAQ: 'FAQ',
+
+  ABOUT_US: 'ABOUT_US',
+
+  DOCUMENTS: 'DOCUMENTS',
+
+  VIEW_TRANSFERS: 'VIEW_TRANSFERS',
+
+  SHOW_CONFIG: 'SHOW_CONFIG',
+
+  EDIT_PROFILE: 'EDIT_PROFILE',
+
+  BANK_SETUP: 'BANK_SETUP',
+
+  STATEMENTS: 'STATEMENTS',
+
+  CONFIRMATIONS: 'CONFIRMATIONS',
+
+  ACTIVITY: 'ACTIVITY',
+
+  // --------------------------------- CHILD SCREENS ---------------------------------
+
+  // Child Homescreen container
+  CHILD_HOMEPAGE_CONTAINER_SCREEN: 'CHILD_HOMEPAGE_CONTAINER_SCREEN',
+
+  // CHILD HOMESCREEN
+  CHILD_HOMEPAGE_SCREEN  : 'CHILD_HOMEPAGE_SCREEN',
+
+  // child portfolio screen
+  CHILD_PORTFOLIO_SCREEN   : 'CHILD_PORTFOLIO_SCREEN',
+
+  // Add Child screen
+  ADD_CHILD_SCREEN     : 'ADD_CHILD_SCREEN',
+
+  // child's ssn screen
+  CHILD_SSN_SCREEN     : 'CHILD_SSN_SCREEN',
+
+  // child view screen
+  CHILD_VIEW_SCREEN     : 'CHILD_VIEW_SCREEN',
+
+  CREATE_CHILD_NOTIFICATION: 'CREATE_CHILD_NOTIFICATION',
+
+  CHILD_AGE_LIMITATION: 'CHILD_AGE_LIMITATION',
+
+  SSN_CONFIRM: 'SSN_CONFIRM',
+
+  // --------------------------------- GOAL SCREENS ----------------------------------
+
+  // select type of goal
+  SELECT_GOAL_SCREEN   : 'SELECT_GOAL_SCREEN',
+
+  // add goal
+  ADD_GOAL_SCREEN      : 'ADD_GOAL_SCREEN',
+
+  // duration of the goal
+  GOAL_DURATION_SCREEN : 'GOAL_DURATION_SCREEN',
+
+  GOAL_DURATION_SELECTION_SCREEN: 'GOAL_DURATION_SELECTION_SCREEN',
+
+  // select risk for the goal
+  SELECT_RISK_SCREEN   : 'SELECT_RISK_SCREEN',
+
+  // select goal amount
+  GOAL_AMOUNT_SCREEN   : 'GOAL_AMOUNT_SCREEN',
+
+  // cost expected
+  COST_EXPECTED: 'COST_EXPECTED',
+
+  // select recurring amount
+  RECURRING_AMOUNT_SCREEN : 'RECURRING_AMOUNT_SCREEN',
+
+  INVEST: 'INVEST',
+
+  GOAL_HOMEPAGE_SCREEN: 'GOAL_HOMEPAGE_SCREEN',
+
+  PORTFOLIO_DETAIL: 'PORTFOLIO_DETAIL',
+
+  INVEST_READY: 'INVEST_READY',
+
+  SKIP_CONFIRM: 'SKIP_CONFIRM',
+
+  INVEST_UNDERWAY: 'INVEST_UNDERWAY',
+
+  // --------------------------------- USER Screens ----------------------------------
+  WITHDRAW: 'WITHDRAW',
+  USER_INPUT_DETAIL_1: 'USER_INPUT_DETAIL_1',
+  USER_INPUT_DETAIL_2: 'USER_INPUT_DETAIL_2',
+  USER_INPUT_DETAIL_3: 'USER_INPUT_DETAIL_3',
+  USER_INPUT_DETAIL_4: 'USER_INPUT_DETAIL_4',
+  USER_INPUT_DETAIL_5: 'USER_INPUT_DETAIL_5',
+  USER_INPUT_DETAIL_6: 'USER_INPUT_DETAIL_6',
+  USER_INPUT_DETAIL_7: 'USER_INPUT_DETAIL_7',
+  USER_INPUT_DETAIL_8: 'USER_INPUT_DETAIL_8',
+  USER_INPUT_DETAIL_9: 'USER_INPUT_DETAIL_9',
+  USER_INPUT_DETAIL_SSN: 'USER_INPUT_DETAIL_SSN',
+  ACCEPT_TERMS_CONDITIONS: 'ACCEPT_TERMS_CONDITIONS',
+  USER_COUNTRY_BORN: 'USER_COUNTRY_BORN',
+  USER_COUNTRY_CITIZENSHIP: 'USER_COUNTRY_CITIZENSHIP',
+  USER_VISA_TYPE: 'USER_VISA_TYPE',
+  USER_VISA_EXPIRY: 'USER_VISA_EXPIRY',
+  OTHER_RESIDENCE: 'OTHER_RESIDENCE',
+  CONFIRM_PUSH_NOTIFICATION: 'CONFIRM_PUSH_NOTIFICATION',
+  AGE_LIMITATION_NOTIFICATION: 'AGE_LIMITATION_NOTIFICATION',
+  PARENT_DASHBOARD: 'PARENT_DASHBOARD',
+
+  PLAID_CONNECT: 'PLAID_CONNECT'
+}
